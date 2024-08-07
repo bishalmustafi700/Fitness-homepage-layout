@@ -1,0 +1,35 @@
+@media screen and ( max-width: 576px) {
+    .nav-main{  
+        max-width: 576px;
+        margin: 0 auto;
+    }
+    .hamburger-menu-navbr{
+        display: block;
+        color: white;
+        font-size: 30px;
+    }
+    .nav-elements{
+        display: none;
+    }
+    .nav-banner-flex{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-banner-details{
+        width: 95%;
+    }
+    .nav-banner-pic{
+        width: 75%;
+        /* margin-left: 20px; */
+
+    }
+    .nav-banner-pic img{
+        width: 100%;
+    }
+    .nav-banner-details h1{
+        color: white;
+        font-size: 4rem;
+    }
+}

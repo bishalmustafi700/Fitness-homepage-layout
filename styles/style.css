@@ -55,6 +55,9 @@ body{
     padding: 8px 16px;
     border-radius: 20px;
 }
+.hamburger-menu-navbr{
+    display: none;
+}
 
 
 /* nav bar ends here */
@@ -152,8 +155,8 @@ body{
     width: 150px;
     border-radius: 10px;
     position: absolute;
-    bottom: 45px;
-    right: 265px;
+    bottom: 73px;
+    right: 221px;
 }
 .banner-highlight-two{
     display: flex;
