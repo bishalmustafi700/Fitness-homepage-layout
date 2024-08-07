@@ -218,3 +218,51 @@ body{
 }
 
 /* habits section ends */
+
+
+/* run-card section starts */
+
+    .run-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(34, 34, 34, 1);
+        padding: 40px 50px;
+        border-radius: 10px;
+        gap: 20px;
+        margin: 50px 50px;
+    }
+    .run-text h1{
+        color: white;
+        font-size: 3rem;
+        font-weight: 800;
+    }
+    
+    .run-text {
+        width: 50%;
+    }
+    .run-text p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .run-img{
+        width: 50%;
+    }
+    .run-img img{
+        width: 100%;
+        border-radius: 10px;
+        Object-fit:none;
+        Object-position: 68% 30%;
+    }
+
+
+
+
+
+
+
+/* run-card section end */
