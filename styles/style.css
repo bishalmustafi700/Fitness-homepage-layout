@@ -16,7 +16,7 @@ body{
     width: 100%;
     background-image: linear-gradient( rgba(17, 17, 17, 1), rgb(119 119 119 / 25%), rgba(17, 17, 17, 1));
 }
-.nav-main{  
+.max-width-website{  
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -171,3 +171,50 @@ body{
     border-radius: 20px;
 }
 /* nav banner ends here */
+
+
+
+/* habits section starts */
+
+.habit-starts{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+.habit-starts h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.habit-starts p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+}
+.habit-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.habit-card{
+    width: 22%;
+    text-align: center;
+}
+.habit-card h3{
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.5rem;
+}
+.habit-card p{
+    margin-top: 10px;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+.habit-card img{
+    border-radius: 100%;
+    border: 5px solid;
+    border-color: #191919;
+}
+
+/* habits section ends */

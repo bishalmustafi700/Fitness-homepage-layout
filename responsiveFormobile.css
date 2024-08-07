@@ -33,3 +33,18 @@
         font-size: 4rem;
     }
 }
+
+/* habits section starts */
+.habit-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    
+}
+.habit-card{
+    width: 50%;
+    text-align: center;
+}
+
+/* habits section ends */
