@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: miama;
-    src: url(./font/Miama.ttf);
+    src: url("../font/Miama.ttf");
 }
 
 /* nav bar starts here */
@@ -259,10 +259,58 @@ body{
         Object-position: 68% 30%;
     }
 
+    /* run-card section end */
+
+    /* footer section starts */
+    footer{
+        color: white;
+    }
+
+    .footer-flex{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-sec-one{
+        width: 35%;
+    }
+    .footer-sec-one p{
+        font-size: 1rem;
+        color: #303131;
+        margin-top: 25px;
+    }
+    .footer-sec-two{
+        width: 20%;
+    }
+    .footer-sec-two h2{
+        color: white;
+    }
+    .footer-sec-two a{
+        color: #303131;
+        text-decoration: none;
+        margin-top: 25px;
+    }
+    .footer-sec-three{
+        width: 20%;
+    }
+    .footer-sec-three a{
+        color: #303131;
+        text-decoration: none;
+        margin-top: 25px;
+    }
+    .footer-sec-three h2{
+        color: #ffffff;
+    }
+
+
+
+
+    /* footer section ends */
 
 
 
 
 
 
-/* run-card section end */
+

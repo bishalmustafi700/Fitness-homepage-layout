@@ -31,6 +31,16 @@
         color: white;
         font-size: 4rem;
     }
+    .banner-highlight-one{
+        position: absolute;
+        right: -16px;
+        top: 175px;
+    }
+    .banner-highlight-two{
+        position: absolute;
+        bottom: 60px;
+        right: 180px;
+    }
 /* habits section starts */
 
 .habit-flex{
