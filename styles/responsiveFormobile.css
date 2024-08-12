@@ -3,6 +3,10 @@
         max-width: 576px;
         margin: 0 auto;
     }
+    .nav-br-flex{
+        width: 94%;
+        margin: 0 auto;
+    }
     .hamburger-menu-navbr{
         display: block;
         color: white;
@@ -15,7 +19,8 @@
         margin-top: 40px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+
     }
     .nav-banner-details{
         width: 95%;
@@ -78,10 +83,29 @@
 }
 /* run-card section end */
 
+    /* footer section starts */
 
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.footer-sec-one{
+    width: 90%;
+}
+.footer-sec-two{
+    width: 90%;
+}
+.footer-sec-three{
+    width: 90%;
+}
+.footer-line{
+    width: 90%;
+    margin: 0 auto;
+}
 
-
-
+    /* footer section ends */
 
 
 

@@ -263,7 +263,10 @@ body{
 
     /* footer section starts */
     footer{
-        color: white;
+        margin-top: 120px;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding-top: 50px;
+        padding-bottom: 20px;
     }
 
     .footer-flex{
@@ -272,12 +275,18 @@ body{
         align-items: center;
         justify-content: space-between;
     }
+    .logo-v2{
+        color: #E6533C;
+        font-size: 4rem;
+        font-weight: 990;
+        font-style: italic;
+    }
     .footer-sec-one{
         width: 35%;
     }
     .footer-sec-one p{
         font-size: 1rem;
-        color: #303131;
+        color: rgba(255, 255, 255, 0.3);
         margin-top: 25px;
     }
     .footer-sec-two{
@@ -285,24 +294,40 @@ body{
     }
     .footer-sec-two h2{
         color: white;
+        font-size: 1.8rem;
+        margin-bottom: 25px;
     }
     .footer-sec-two a{
-        color: #303131;
+        color: rgba(255, 255, 255, 0.5);
         text-decoration: none;
-        margin-top: 25px;
+        font-size: 1.2rem;
     }
     .footer-sec-three{
         width: 20%;
     }
     .footer-sec-three a{
-        color: #303131;
+        color: rgba(255, 255, 255, 0.5);
         text-decoration: none;
-        margin-top: 25px;
+        font-size: 1.2rem;
     }
     .footer-sec-three h2{
         color: #ffffff;
+        font-size: 1.8rem;
+        margin-bottom: 25px;
     }
+    .footer-rights{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .footer-rights p{
+        color: rgba(255, 255, 255, 0.5);
+        margin-top: 30px;
+    }
+    .footer-line{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 100%;
 
+    }
 
 
 
