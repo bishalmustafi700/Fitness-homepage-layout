@@ -91,7 +91,6 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        text-align: center;
     }
     .BMI-chart-section {
         width: 100%;
@@ -110,6 +109,33 @@
     }
 
     /* BMI section ends */
+
+    /* team section starts */
+
+    .team-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .team-bg{
+        width: 80%;
+    }
+
+
+
+
+    /* team section ends */
+
+
+
+
+
+
+
+
+
+
+
 
     /* footer section starts */
 

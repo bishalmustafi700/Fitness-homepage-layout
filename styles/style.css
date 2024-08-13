@@ -277,10 +277,11 @@ body{
     .BMI-section{
         background-color:rgba(255, 255, 255, 0.1);
         padding-bottom: 20px;
-        margin-top: 80px;
+        margin-top: 30px;
     }
     .BMI-headline{
         text-align: center;
+        margin-top: 50px;
     }
     .BMI-headline h1{
         font-size: 3rem;
@@ -345,6 +346,7 @@ body{
         font-size: 1.2rem;
         background-color: rgba(255, 255, 255, 0.1);
         color: rgba(255, 255, 255, 0.6);
+        font-weight: 400;
     }
     .gender-box{
         width: 43%;
@@ -383,7 +385,50 @@ body{
     /* BMI section ends */
 
 
+    /* team section starts */
 
+    .team-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    .team-bg{
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .trainer-card img{
+        width: 100%;
+        border-radius: 15px;
+        height: 275px; 
+        Object-fit:cover;
+        Object-position: 78% 4%; 
+    }
+    .trainer-card{
+        position: relative;
+        /* padding: 25px; */
+        
+    }
+    .trainer-details h3{
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 900;
+    }
+    .trainer-details{
+        position: absolute;
+        top: 210px;
+        left: 26px;
+    }
+    .trainer-details p{
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+
+
+
+    /* team section ends */
 
 
 
