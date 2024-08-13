@@ -26,7 +26,7 @@
         width: 95%;
     }
     .nav-banner-pic{
-        width: 75%;
+        width: 100%;
 
     }
     .nav-banner-pic img{
@@ -38,16 +38,17 @@
     }
     .banner-highlight-one{
         position: absolute;
-        right: -16px;
-        top: 175px;
+        right: 28px;
+        top: 232px;
     }
     .banner-highlight-two{
         position: absolute;
-        bottom: 60px;
-        right: 180px;
+        bottom: 107px;
+        left: 14px;
     }
-/* habits section starts */
 
+
+/* habits section starts */
 .habit-flex{
     display: flex;
     flex-direction: column;
@@ -85,7 +86,6 @@
 
 
     /* BMI section starts */
-
     .BMI-flex{
         display: flex;
         align-items: center;
@@ -107,11 +107,45 @@
     .activity-box{
         width: 88%;
     }
+    .BMI-headline{
+        width: 85%;
+    }
 
     /* BMI section ends */
 
-    /* team section starts */
 
+    /* food-section-starts */
+     .food-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+    }
+    .food-card{
+        width: 80%;
+        
+    }  
+    /* food-section-ends */ 
+
+    /* success section starts */
+    .success-flex{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .success-img{
+        width: 100%;
+    }
+    .success-text{
+        width: 100%;
+    }
+    /* success section ends */  
+
+    /* team section starts */
     .team-grid{
         display: grid;
         grid-template-columns: 1fr;
@@ -120,25 +154,12 @@
     .team-bg{
         width: 80%;
     }
-
-
-
-
+    .trainer-hidden{
+        display: none;
+    }
     /* team section ends */
 
-
-
-
-
-
-
-
-
-
-
-
     /* footer section starts */
-
 .footer-flex{
     display: flex;
     flex-direction: column;
@@ -158,13 +179,6 @@
     width: 90%;
     margin: 0 auto;
 }
-
     /* footer section ends */
-
-
-
-
-
-
 }
 

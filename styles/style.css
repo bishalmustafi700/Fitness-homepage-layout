@@ -58,13 +58,10 @@ body{
 .hamburger-menu-navbr{
     display: none;
 }
-
-
 /* nav bar ends here */
 
 
 /* nav banner starts here */
-
 .nav-banner-flex{
     margin-top: 40px;
     display: flex;
@@ -175,7 +172,6 @@ body{
 
 
 /* habits section starts */
-
 .habit-starts{
     margin-top: 50px;
     color: white;
@@ -216,13 +212,11 @@ body{
     border: 5px solid;
     border-color: #191919;
 }
-
 /* habits section ends */
 
 
 /* run-card section starts */
-
-    .run-flex{
+      .run-flex{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -258,7 +252,6 @@ body{
         Object-fit:none;
         Object-position: 68% 30%;
     }
-
     /* run-card section end */
 
 
@@ -282,6 +275,7 @@ body{
     .BMI-headline{
         text-align: center;
         margin-top: 50px;
+        width: 80%;
     }
     .BMI-headline h1{
         font-size: 3rem;
@@ -291,7 +285,8 @@ body{
     .BMI-headline p{
         font-size: 1rem;
         color:rgba(255, 255, 255, 0.5) ;
-        margin: 20px;
+        margin-bottom: 50px;
+        margin-top: 20px;
     }
 
     .BMI-chart-section table, tr, td,th {
@@ -380,13 +375,78 @@ body{
         color: rgba(255, 255, 255, 0.3);
         border: none;
     }
-
-
     /* BMI section ends */
 
 
-    /* team section starts */
 
+    /* food-section-starts */
+    .food-flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .food-card{
+        width: 28%;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow:0px 2px 4px #8A8B8B;
+        background-color: #19191925;
+    }
+    .food-card img{
+        width: 100%;
+        border-radius: 10px;
+        filter: grayscale(33%);
+    }
+    .food-card h1{
+        font-weight: 700;
+        font-size: 1.6rem;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .food-card p{
+        font-weight: 400;
+        font-size: 1rem;
+        color: rgba(255, 255, 255, 0.3);
+    }
+    /* food-section-ends */
+
+    /* success section starts */
+    .success-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 70px;
+        background-color:rgba(255, 255, 255, 0.1);
+        border-radius: 15px;
+        padding: 20px;
+    }
+    .success-img img{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .success-img{
+        width: 30%;
+    }
+    .success-text{
+        width: 60%;
+        color: white;
+    }
+    .success-text h1{
+        color: white;
+        font-size: 3rem;
+        font-weight: 800;
+        
+    }
+    .success-text p{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 1rem;
+        font-weight: 400; 
+    }
+    /* success section ends */
+
+    /* team section starts */
     .team-grid{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -424,18 +484,11 @@ body{
         font-size: 1rem;
         color: rgba(255, 255, 255, 0.5);
     }
-
-
-
-
     /* team section ends */
-
-
-
 
     /* footer section starts */
     footer{
-        margin-top: 120px;
+        margin-top: 80px;
         background-color: rgba(255, 255, 255, 0.1);
         padding-top: 50px;
         padding-bottom: 20px;
@@ -500,8 +553,6 @@ body{
         border-radius: 100%;
 
     }
-
-
 
     /* footer section ends */
 
