@@ -83,6 +83,34 @@
 }
 /* run-card section end */
 
+
+    /* BMI section starts */
+
+    .BMI-flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+    }
+    .BMI-chart-section {
+        width: 100%;
+    }
+    .Calculate-BMI{
+        width: 100%;
+    }
+    .BMI-input input {
+        width: 35%;
+    }
+    .gender-box{
+        width: 40%;
+    }
+    .activity-box{
+        width: 88%;
+    }
+
+    /* BMI section ends */
+
     /* footer section starts */
 
 .footer-flex{
